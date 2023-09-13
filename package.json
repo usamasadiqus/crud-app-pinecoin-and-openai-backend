@@ -1,0 +1,31 @@
+{
+  "name": "crud-app-pinecoin-and-openai-backend",
+  "version": "1.0.0",
+  "description": "This repo for crud app pinecone and openai frontend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "nodemon index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usamasadiqus/mern-crud-app-using-pinecone-and-openai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usamasadiqus/mern-crud-app-using-pinecone-and-openai/issues"
+  },
+  "homepage": "https://github.com/usamasadiqus/mern-crud-app-using-pinecone-and-openai#readme",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^1.0.0",
+    "openai": "^4.6.0"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
